@@ -2,14 +2,26 @@
 
 int main()
 {
-    int c;
-    float f;
-    
-    printf("Enter the celcious: ");
-    scanf("%d", &c);
-    
-    f = (9.0/5.0)*c + 32;
-    printf("The temperature is : %.2f Fahrenheit", f);
+    int age1, age2;
+
+    printf("Enter age1: ");
+    scanf("%d", &age1);
+
+    printf("Enter age2: ");
+    scanf("%d", &age2);
+
+    if(age1<age2)
+    {
+        printf("age2 is bigger then age1");        
+    }
+    else if(age1>age2)
+    {
+        printf("age1 is bigger then age2");        
+    }
+    else
+    {
+        printf("age1 is equal to age2");   
+    }
 
     return 0;
 }

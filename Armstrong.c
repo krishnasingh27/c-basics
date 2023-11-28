@@ -25,7 +25,7 @@ void isArmstrong(int num, int count)
         sum = sum + mul;
         temp = temp/10;
     }
-    if (sum = num)
+    if (sum == num)
     {
         printf("The Number is Armstrong.");
     }
